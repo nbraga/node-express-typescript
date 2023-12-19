@@ -11,15 +11,15 @@
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "baseUrl": ".",
-        "paths": {
-            "@controllers/*": ["./src/app/controllers/*"],
-            "@services/*": ["./src/app/services/*"],
-            "@interfaces/*": ["./src/interfaces/*"],
-            "@routes/*": ["./src/routes/*"],
-            "@schemas/*": ["./src/app/schemas/*"]
-        }
+        "forceConsistentCasingInFileNames": true
+        // "baseUrl": ".",
+        // "paths": {
+        //     "@controllers/*": ["./src/app/controllers/*"],
+        //     "@services/*": ["./src/app/services/*"],
+        //     "@interfaces/*": ["./src/interfaces/*"],
+        //     "@routes/*": ["./src/routes/*"],
+        //     "@schemas/*": ["./src/app/schemas/*"]
+        // }
     },
     "include": ["src/**/*"]
 }
